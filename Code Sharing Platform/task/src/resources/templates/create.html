@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <script th:src="@{/javascript/create_script.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<label for="time_snippet">Time limit</label>
+<textarea id="time_snippet"></textarea>
+<label for="views_snippet">Views limit</label>
+<textarea id="views_snippet"></textarea>
+<label for="code_snippet">Code snippet</label>
+<textarea id="code_snippet"></textarea>
+<button id="send_snippet" type="submit" onclick="send()">Submit</button>
+</body>
+</html>
